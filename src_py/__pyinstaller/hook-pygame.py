@@ -43,3 +43,4 @@ if platform.system() == "Windows":
         # settles all the DLLs into the top level folder, which prevents duplication
         # with the DLLs already being put there.
         binaries.append((binary, "."))
+
